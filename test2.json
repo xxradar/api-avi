@@ -1,0 +1,15 @@
+{
+    "receive_timeout": 4, 
+    "name": "http-hmon", 
+    "failed_checks": 3, 
+    "send_interval": 10, 
+    "http_monitor": {
+        "http_request": "GET / HTTP/1.0", 
+        "http_response_code": [
+            {
+                "code": "HTTP_2XX"
+            }
+        ]
+    }, 
+    "type": "HEALTH_MONITOR_HTTP"
+}
